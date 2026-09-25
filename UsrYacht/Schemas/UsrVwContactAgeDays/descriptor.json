@@ -4,6 +4,7 @@
     "Name": "UsrVwContactAgeDays",
     "ModifiedOnUtc": "\/Date(1790317187000)\/",
     "ManagerName": "EntitySchemaManager",
-    "Caption": "Contact age in days (view)"
+    "Caption": "Contact age in days (view)",
+    "DependsOn": []
   }
 }
