@@ -85,6 +85,20 @@
           "A5": "78d38bbf-76cf-46af-882f-106b71901b73",
           "S2": "23018567-a13c-4320-8687-fd6f9e3699bd",
           "E2": 1
+        },
+        {
+          "UId": "4d536225-5c27-7c4a-060a-2077b916d1e3",
+          "A2": "UsrParentContact",
+          "A3": "3da54b94-36ec-479c-99c2-020b54c98b3e",
+          "A4": "3da54b94-36ec-479c-99c2-020b54c98b3e",
+          "A5": "78d38bbf-76cf-46af-882f-106b71901b73",
+          "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+          "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+          "E2": 1,
+          "E6": true,
+          "E20": true,
+          "E17": "UsrParentContactId",
+          "E18": "UsrParentContactName"
         }
       ],
       "D6": [],
