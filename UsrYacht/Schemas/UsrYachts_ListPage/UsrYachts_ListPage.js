@@ -40,23 +40,21 @@ define("UsrYachts_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"width": 200.00001525878906
 						},
 						{
-							"id": "cdf36ccb-e2fc-648d-03fd-aff915dbda9b",
-							"code": "PDS_UsrColumn9",
-							"caption": "#ResourceString(PDS_UsrColumn9)#",
-							"dataValueType": 10,
-							"width": 131.00001525878906
+							"id": "b9c3412e-212b-e94c-5ee2-5c0c54c417d1",
+							"code": "PDS_UsrDriveType",
+							"caption": "#ResourceString(PDS_UsrDriveType)#",
+							"dataValueType": 10
 						},
 						{
-							"id": "f1c18d72-440e-f2a7-c0b1-3c353a1e38b8",
-							"code": "PDS_UsrColumn10",
-							"caption": "#ResourceString(PDS_UsrColumn10)#",
-							"dataValueType": 10,
-							"width": 185.00001525878906
+							"id": "07c1e140-380b-e710-729d-49d337e957e0",
+							"code": "PDS_UsrStatus",
+							"caption": "#ResourceString(PDS_UsrStatus)#",
+							"dataValueType": 10
 						},
 						{
-							"id": "0a6446f7-c914-8d03-5f38-1af868640898",
-							"code": "PDS_UsrColumn11",
-							"caption": "#ResourceString(PDS_UsrColumn11)#",
+							"id": "ffe637db-9114-0087-b701-d9e7b08a1d2f",
+							"code": "PDS_UsrPassengersCount",
+							"caption": "#ResourceString(PDS_UsrPassengersCount)#",
 							"dataValueType": 4
 						},
 						{
@@ -105,19 +103,19 @@ define("UsrYachts_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 							"path": "PDS.UsrPrice"
 						}
 					},
-					"PDS_UsrColumn9": {
+					"PDS_UsrDriveType": {
 						"modelConfig": {
-							"path": "PDS.UsrColumn9"
+							"path": "PDS.UsrDriveType"
 						}
 					},
-					"PDS_UsrColumn10": {
+					"PDS_UsrStatus": {
 						"modelConfig": {
-							"path": "PDS.UsrColumn10"
+							"path": "PDS.UsrStatus"
 						}
 					},
-					"PDS_UsrColumn11": {
+					"PDS_UsrPassengersCount": {
 						"modelConfig": {
-							"path": "PDS.UsrColumn11"
+							"path": "PDS.UsrPassengersCount"
 						}
 					},
 					"PDS_CreatedOn": {
@@ -139,7 +137,7 @@ define("UsrYachts_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"default": [
 						{
 							"direction": "desc",
-							"columnName": "UsrColumn11"
+							"columnName": "UsrDriveType"
 						}
 					]
 				}
@@ -162,14 +160,14 @@ define("UsrYachts_ListPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 						"UsrPrice": {
 							"path": "UsrPrice"
 						},
-						"UsrColumn9": {
-							"path": "UsrColumn9"
+						"UsrDriveType": {
+							"path": "UsrDriveType"
 						},
-						"UsrColumn10": {
-							"path": "UsrColumn10"
+						"UsrStatus": {
+							"path": "UsrStatus"
 						},
-						"UsrColumn11": {
-							"path": "UsrColumn11"
+						"UsrPassengersCount": {
+							"path": "UsrPassengersCount"
 						},
 						"CreatedOn": {
 							"path": "CreatedOn"

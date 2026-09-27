@@ -109,7 +109,8 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"control": "$PDS_UsrColumn9_ct6vw46",
 					"visible": true,
 					"readonly": false,
-					"placeholder": ""
+					"placeholder": "",
+					"valueDetails": null
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -137,7 +138,8 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"control": "$PDS_UsrColumn10_nn7t3he",
 					"visible": true,
 					"readonly": false,
-					"placeholder": ""
+					"placeholder": "",
+					"valueDetails": null
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -187,7 +189,8 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"control": "$PDS_UsrColumn12_toahobb",
 					"visible": true,
 					"readonly": false,
-					"placeholder": ""
+					"placeholder": "",
+					"valueDetails": null
 				},
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
@@ -215,6 +218,29 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "Number",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"colSpan": 1,
+						"row": 3,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "$Resources.Strings.PDS_UsrNumber_ytlcndo",
+					"control": "$PDS_UsrNumber_ytlcndo",
+					"placeholder": "",
+					"tooltip": "",
+					"readonly": false,
+					"multiline": false,
+					"labelPosition": "auto"
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 5
 			}
 		]/**SCHEMA_VIEW_CONFIG_DIFF*/,
 		viewModelConfigDiff: /**SCHEMA_VIEW_MODEL_CONFIG_DIFF*/[
@@ -236,7 +262,7 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					},
 					"PDS_UsrColumn9_ct6vw46": {
 						"modelConfig": {
-							"path": "PDS.UsrColumn9"
+							"path": "PDS.UsrDriveType"
 						}
 					},
 					"PDS_UsrColumn9_ct6vw46_List": {
@@ -254,7 +280,7 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					},
 					"PDS_UsrColumn10_nn7t3he": {
 						"modelConfig": {
-							"path": "PDS.UsrColumn10"
+							"path": "PDS.UsrStatus"
 						}
 					},
 					"PDS_UsrColumn10_nn7t3he_List": {
@@ -272,12 +298,12 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					},
 					"PDS_UsrColumn11_lgm9tar": {
 						"modelConfig": {
-							"path": "PDS.UsrColumn11"
+							"path": "PDS.UsrPassengersCount"
 						}
 					},
 					"PDS_UsrColumn12_toahobb": {
 						"modelConfig": {
-							"path": "PDS.UsrColumn12"
+							"path": "PDS.UsrManager"
 						}
 					},
 					"PDS_UsrColumn12_toahobb_List": {
@@ -296,6 +322,11 @@ define("UsrYachts_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHE
 					"PDS_UsrComment_gtp785k": {
 						"modelConfig": {
 							"path": "PDS.UsrComment"
+						}
+					},
+					"PDS_UsrNumber_ytlcndo": {
+						"modelConfig": {
+							"path": "PDS.UsrNumber"
 						}
 					}
 				}

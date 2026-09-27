@@ -2,7 +2,7 @@
   "Descriptor": {
     "UId": "f7202ae0-5423-4ac5-a6f2-69effee4e23b",
     "Name": "UsrYachtDriveType",
-    "ModifiedOnUtc": "\/Date(1790334904000)\/",
+    "ModifiedOnUtc": "\/Date(1790490249000)\/",
     "Parent": {
       "UId": "11ab4bcb-9b23-4b6d-9c86-520fae925d75",
       "Name": "BaseLookup"
