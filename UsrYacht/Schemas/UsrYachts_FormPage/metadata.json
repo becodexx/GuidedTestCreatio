@@ -43,6 +43,27 @@
   "A4": "e3feef3b-779e-4313-9329-93f67d648cbd",
   "A5": "78d38bbf-76cf-46af-882f-106b71901b73"
 }
++ MetaData.Schema.B2 {
+  "UId": "9635c9ba-9d9e-df0c-c4d0-6bf209238335",
+  "A2": "Input_gw2x49j_label",
+  "A3": "e3feef3b-779e-4313-9329-93f67d648cbd",
+  "A4": "e3feef3b-779e-4313-9329-93f67d648cbd",
+  "A5": "78d38bbf-76cf-46af-882f-106b71901b73"
+}
++ MetaData.Schema.B2 {
+  "UId": "4ce600c7-2070-3ee1-c84a-949f2a4132f2",
+  "A2": "PassengersCountCannotBeLess",
+  "A3": "e3feef3b-779e-4313-9329-93f67d648cbd",
+  "A4": "e3feef3b-779e-4313-9329-93f67d648cbd",
+  "A5": "78d38bbf-76cf-46af-882f-106b71901b73"
+}
++ MetaData.Schema.B2 {
+  "UId": "192ce746-8506-5ad4-c65a-b5543e637913",
+  "A2": "PriceCannotBeLess",
+  "A3": "e3feef3b-779e-4313-9329-93f67d648cbd",
+  "A4": "e3feef3b-779e-4313-9329-93f67d648cbd",
+  "A5": "78d38bbf-76cf-46af-882f-106b71901b73"
+}
 = MetaData.Schema.B2.["fd9e5bd2-19ad-68b5-1356-fe7b39d36f28"].A4 "e3feef3b-779e-4313-9329-93f67d648cbd"
 = MetaData.Schema.B2.["a77180d7-a9d0-5c7d-a47b-74c0545a1774"].A4 "e3feef3b-779e-4313-9329-93f67d648cbd"
 = MetaData.Schema.B2.["a53e6c9a-741a-21de-9293-9d87d6014595"].A4 "e3feef3b-779e-4313-9329-93f67d648cbd"
@@ -63,6 +84,9 @@
   "70d21a92-f7a7-950b-85c6-fe32fd8b2ec9",
   "b8e6f454-0ccc-f328-a752-01e00a9b614d",
   "98a25889-e410-096f-b732-3c7a43e7202f",
+  "9635c9ba-9d9e-df0c-c4d0-6bf209238335",
+  "4ce600c7-2070-3ee1-c84a-949f2a4132f2",
+  "192ce746-8506-5ad4-c65a-b5543e637913",
   "fd9e5bd2-19ad-68b5-1356-fe7b39d36f28",
   "a77180d7-a9d0-5c7d-a47b-74c0545a1774",
   "a53e6c9a-741a-21de-9293-9d87d6014595",
